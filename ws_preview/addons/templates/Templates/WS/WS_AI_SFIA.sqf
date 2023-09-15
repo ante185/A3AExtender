@@ -78,6 +78,7 @@ if ("orange" in A3A_enabledDLC) then {
 };
 ["vehiclesPolice", _vehiclesPolice] call _fnc_saveToTemplate;
 
+
 //Minefield definition
 ["minefieldAT", ["ATMine"]] call _fnc_saveToTemplate;
 ["minefieldAPERS", ["APERSBoundingMine", "APERSMine"]] call _fnc_saveToTemplate;
