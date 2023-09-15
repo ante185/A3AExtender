@@ -122,7 +122,6 @@ if (random [0, 0.5, 1] > 0.5) then {
 	["sfVoices", ["Male01ENGB", "Male02ENGB", "Male03ENGB", "Male04ENGB", "Male05ENGB"]] call _fnc_saveToTemplate;
 	_sfSwitch = 1; //CTRG 04 switch
 };
-"NATOMen" call _fnc_saveNames;
 
 //////////////////////////
 //       Loadouts       //

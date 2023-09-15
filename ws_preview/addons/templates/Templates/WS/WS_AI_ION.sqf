@@ -111,7 +111,7 @@ if ("orange" in A3A_enabledDLC) then {
 "WhiteHead_08","WhiteHead_09","WhiteHead_11","WhiteHead_12","WhiteHead_14",
 "WhiteHead_15","WhiteHead_16","WhiteHead_18","WhiteHead_19","WhiteHead_20",
 "WhiteHead_21"]] call _fnc_saveToTemplate;
-"NATOMen" call _fnc_saveNames;
+
 
 //////////////////////////
 //       Loadouts       //

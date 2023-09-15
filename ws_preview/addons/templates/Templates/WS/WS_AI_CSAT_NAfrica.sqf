@@ -112,7 +112,6 @@ if ("orange" in A3A_enabledDLC) then {
 
 ["sfVoices", ["Male01PER","Male02PER","Male03PER"]] call _fnc_saveToTemplate;
 ["sfFaces", ["PersianHead_A3_01","PersianHead_A3_02","PersianHead_A3_03"]] call _fnc_saveToTemplate;
-"lxWS_WSaharaMen" call _fnc_saveNames;
 
 //////////////////////////
 //       Loadouts       //
