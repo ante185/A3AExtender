@@ -68,7 +68,7 @@ private _initialRebelEquipment = [
 "acc_flashlight","acc_flashlight_smg_01","acc_flashlight_pistol"];
 
 if (allowDLCExpansion) then {
-    _initialRebelEquipment append [["launch_RPG7_F", 15], ["RPG7_F", 45], ["SMG_05_F"], ["hgun_Pistol_01_F"], ["10Rnd_9x21_Mag"]];
+    _initialRebelEquipment append [["launch_RPG7_F", 15], ["RPG7_F", 45], "SMG_05_F", "hgun_Pistol_01_F", "10Rnd_9x21_Mag"];
 } else {
     _initialRebelEquipment append [["launch_RPG32_F", 15], ["RPG32_F", 30]];
 };
@@ -89,7 +89,10 @@ private _rebUniforms = [
 	"U_lxWS_C_Djella_06",
 	"U_lxWS_C_Djella_02a",
 	"U_lxWS_C_Djella_05",
-	"U_lxWS_C_Djella_01"
+	"U_lxWS_C_Djella_01",
+    "U_lxWS_Tak_02_A",
+    "U_lxWS_Tak_02_B",
+    "U_lxWS_Tak_02_C"
 ];
 
 private _dlcUniforms = [

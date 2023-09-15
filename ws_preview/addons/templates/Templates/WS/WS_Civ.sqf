@@ -7,16 +7,17 @@
 //////////////////////////
 
 ["vehiclesCivCar", [
-    "C_Quadbike_01_F", 0.3
-    ,"C_Hatchback_01_F", 2.0
-    ,"C_Hatchback_01_sport_F", 0.3
-    ,"C_Offroad_01_F", 2.0
-    ,"C_SUV_01_F", 1.0
+    "C_Quadbike_01_F", 0.15
+    ,"C_Hatchback_01_F", 1.0
+    ,"C_Hatchback_01_sport_F", 0.15
+    ,"C_Offroad_01_F", 1.5
+    ,"C_Offroad_lxWS", 1.5
+    ,"C_SUV_01_F", 0.75
     ,"C_Van_02_vehicle_F", 1.0                // van from Orange
     ,"C_Van_02_transport_F", 0.2            // minibus
     ,"C_Offroad_02_unarmed_F", 1.5            // Apex 4WD
-    ,"C_Offroad_01_comms_F", 0.1            // Contact
-    ,"C_Offroad_01_covered_F", 0.1
+    ,"C_Offroad_01_comms_F", 0.3            // Contact
+    ,"C_Offroad_01_covered_F", 0.3
 	]] call _fnc_saveToTemplate;
 
 ["vehiclesCivIndustrial", [
@@ -25,7 +26,9 @@
     ,"C_Truck_02_transport_F", 0.5
     ,"C_Truck_02_covered_F", 0.5
     ,"C_Tractor_01_F", 0.3    
-    ,"C_Truck_02_racing_lxWS", 0.1
+    ,"C_Truck_02_racing_lxWS", 0.2
+	,"C_Truck_02_flatbed_lxWS", 0.5
+	,"C_Truck_02_cargo_lxWS", 0.5
 	]] call _fnc_saveToTemplate;
 
 ["vehiclesCivBoat", [
