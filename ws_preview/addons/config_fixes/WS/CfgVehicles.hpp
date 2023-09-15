@@ -26,7 +26,6 @@ class CfgVehicles {
 
 	
 #include "ws_ion.hpp"
-#include "ws_una.hpp"
 	
 	//Misc retextures
 	class a3a_tan_Offroad_armor : B_Tura_Offroad_armor_lxWS
