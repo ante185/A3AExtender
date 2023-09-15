@@ -136,8 +136,6 @@ if ("orange" in A3A_enabledDLC) then {
 "lxWS_African_Head_Old","lxWS_African_Head_01","lxWS_African_Head_02",
 "lxWS_African_Head_03","lxWS_African_Head_04","lxWS_African_Head_05","lxWS_Said_Head",
 "lxWS_African_Head_Old_Bard"]] call _fnc_saveToTemplate;
-//["polVoices", []] call _fnc_saveToTemplate;
-//["polFaces", []] call _fnc_saveToTemplate;
 
 "TanoanMen" call _fnc_saveNames;
 
