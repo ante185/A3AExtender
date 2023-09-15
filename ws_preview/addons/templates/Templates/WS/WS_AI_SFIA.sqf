@@ -78,11 +78,12 @@ if ("orange" in A3A_enabledDLC) then {
 };
 ["vehiclesPolice", _vehiclesPolice] call _fnc_saveToTemplate;
 
-#include "WS_Vehicle_Attributes.sqf"
-
 //Minefield definition
 ["minefieldAT", ["ATMine"]] call _fnc_saveToTemplate;
 ["minefieldAPERS", ["APERSBoundingMine", "APERSMine"]] call _fnc_saveToTemplate;
+
+#include "..\Vanilla\Vanilla_Vehicle_Attributes.sqf"
+#include "WS_Vehicle_Attributes.sqf"
 
 /////////////////////
 ///  Identities   ///
