@@ -1,5 +1,5 @@
-name = "A3 Antistasi Extender example";
-author = "A3-Antistasi dev team";
-tooltip = "Antistasi Extender example";
+name = "A3 Antistasi Pistols Only Start";
+author = "Ante185";
+tooltip = "Pistols Only For Antistasi Community Version";
 actionName = "GitHub";
-action = "https://github.com/HakonRydland/A3AExtender";
+action = "https://github.com/ante185/A3AExtender/tree/challenge";
