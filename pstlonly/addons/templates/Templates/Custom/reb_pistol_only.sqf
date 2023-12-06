@@ -14,7 +14,8 @@ private _flareGuns = [
 ["CUP_hgun_FlareGun", _flareCategory],
 ["rhs_weap_rsp30_white", _flareCategory],
 ["rhs_weap_rsp30_green", _flareCategory],
-["rhs_weap_rsp30_red", _flareCategory]
+["rhs_weap_rsp30_red", _flareCategory],
+["LIB_Webley_Flare", _flareCategory]
 ];
 
 {
@@ -22,9 +23,10 @@ private _flareGuns = [
 } forEach _flareGuns;
 
 private _cup = (isClass (configFile >> "CfgPatches" >> "CUP_AirVehicles_Core"));
+private _spe = (isClass (configFile >> "CfgPatches" >> "WW2_Core_c_Core_c"));
 private _3cb = (isClass (configFile >> "CfgPatches" >> "UK3CB_Factions_Weapons"));
 private _rhs = (isClass (configFile >> "CfgPatches" >> "rhsgref_c_weapons")) && !_3cb;
-private _vanilla = !(_cup || _rhs || _3cb);
+private _vanilla = !(_cup || _rhs || _3cb || _spe);
 
 if(_cup) then {
 #include "CUP.sqf"
