@@ -1,10 +1,10 @@
 #include "..\missionDescription\master.hpp"
 
-author = "Map ported by Ante. Antistasi by The Official Antistasi Community and Barbolani";
-OnLoadName = $STR_A3AE_maps_Vinjesvingen_mapname_short;
-OnLoadMission = $STR_A3AE_maps_Vinjesvingen_loadText;
-briefingName = $STR_A3AE_maps_Vinjesvingen_mapname;
-overviewText = $STR_A3AE_maps_Vinjesvingen_description;
+author = "Map ported by Ante.";
+OnLoadName = "Antistasi Vinjesvingen";
+OnLoadMission = "Because nothing is more important than free pickled herring.";
+briefingName = "Antistasi - Liberation of Vinjesvingen";
+overviewText = "Liberate this picturesque fjord from the occupation, defeat the invasion";
 loadScreen = "Pictures\Mission\pic.jpg"; // NB, this will resolve from root
 overviewPicture = "Pictures\Mission\pic.jpg"; // NB, this will resolve from root
 
