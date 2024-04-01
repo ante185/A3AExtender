@@ -36,12 +36,18 @@
     </-->
       <Key ID="STR_A3AE_maps_Altis_mapname_short">
         <Original>Antistasi Altis Extender Overwritten map</Original>
+      <Key ID="STR_A3AE_maps_Vinjesvingen_mapname_short">
+        <Original>Antistasi Vinjesvingen</Original>
       </Key>
       <Key ID="STR_A3AE_maps_Altis_mapname">
         <Original>Antistasi - Liberation of Altis Extender Overwritten map</Original>
+      <Key ID="STR_A3AE_maps_Vinjesvingen_mapname">
+        <Original>Antistasi - Liberation of Vinjesvingen</Original>
       </Key>
       <Key ID="STR_A3AE_maps_Altis_description">
         <Original>Fuck some shit up on a overwritten map</Original>
+      <Key ID="STR_A3AE_maps_Vinjesvingen_description">
+        <Original>Liberate this picturesque fjord from the occupation, defeat the invasion</Original>
       </Key>
       <Key ID="STR_A3AE_maps_Altis_loadText">
         <Original>Because nothing is more important than fun. on a overwritten map</Original>
@@ -58,6 +64,8 @@
       </Key>
       <Key ID="STR_A3AE_maps_Other_Altis_loadText">
         <Original>Because nothing is more important than fun. on a new map</Original>
+      <Key ID="STR_A3AE_maps_Vinjesvingen_loadText">
+        <Original>Because nothing is more important than free pickled herring.</Original>
       </Key>
     </Container>
   </Package>
