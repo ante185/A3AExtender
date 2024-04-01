@@ -15,14 +15,13 @@ class mapInfo {
             ,{"Myrbo",55}
             ,{"Skatter",25}
             ,{"Floten",218}
-            ,{"Campabo",45}
             ,{"Sundrisland",69}
             ,{"Autsbo",21}
             ,{"Bru",40}
             ,{"Levad",50}
             ,{"Nystog",36}
         };
-        disabledTowns[] = {"vinjeAirfield","Northfactory","Gasstation","Factory","Sawmill","Heii","Brauti","Solhaug"};
+        disabledTowns[] = {"vinjeAirfield","Campabo","Northfactory","Gasstation","Factory","Sawmill","Heii","Brauti","Solhaug"};
         antennas[] = {
             {5095.85,1018.74,0},{1790.87,5817.86,0.00408936}
         };
@@ -46,5 +45,4 @@ class mapInfo {
             {"Land_Barricade_01_4m_F", 30}, {"Land_GuardBox_01_brown_F", 80}, {"Land_Tyres_F", 10}
         };
     };
-
 };
