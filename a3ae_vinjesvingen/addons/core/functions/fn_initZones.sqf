@@ -7,7 +7,7 @@
 //deletion of a marker in the array will require deletion of the corresponding marker in the editor
 //only touch the commented arrays
 scriptName "initZones.sqf";
-#include "..\..\script_component.hpp"
+#include "script_component.hpp"
 FIX_LINE_NUMBERS()
 Info("initZones started");
 
