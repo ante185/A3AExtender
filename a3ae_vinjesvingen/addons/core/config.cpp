@@ -13,4 +13,3 @@ class CfgPatches {
         VERSION_CONFIG;
     };
 };
-#include "functions\config.cpp"
